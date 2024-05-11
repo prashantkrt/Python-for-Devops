@@ -5,15 +5,20 @@ print(marks[0:4])
 
 marks2=[98,"maths",80,"English",90,"Chemistry"]
 print(marks2)
+print(marks[0:]) #prints all
 
 print(marks[1:3])
 print(marks2[1:3])
 
-
 marks.append(100)
 marks.insert(0,101)
-marks.remove(100)
+marks.remove(100) #value 
+marks.pop(2) #index
+marks.pop(-1)#last index
 marks.sort()
+marks.sort(reverse=True)
+#marks.clear()#clearing the list
+# del marks deletes the list
 print(marks)
 
 print(99 in marks)

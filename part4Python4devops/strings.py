@@ -39,3 +39,33 @@ text = "Python is awesome"
 substring = "is"
 if substring in text:
     print(substring, "found in the text")
+    
+text="prashant"
+print(text.capitalize())
+print(text) 
+
+print(text.isupper())
+print(text.islower())
+
+
+text="     pr     "
+print(text.rstrip())
+print(text.lstrip())
+print(text.strip())
+
+i="Parrot,Peacock"
+list=i.split(",")
+print(list)
+print(list[0])
+
+print()
+for i in range(len(list)):
+    print(list[i])
+    
+print()
+
+for i in list:
+    print(i)
+    
+
+  

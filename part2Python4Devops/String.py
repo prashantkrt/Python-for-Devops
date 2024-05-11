@@ -18,3 +18,6 @@ print(name.replace("Tony","Rony"))
 print(name)
 
 print("T" in name)#true
+
+val="Eating  apple apple apple banana"
+print(val.count("apple"))
